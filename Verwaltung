@@ -1,0 +1,171 @@
+/**
+ * @Natalie Stamp
+ * @version1
+ */
+public class Verwaltung
+{
+    
+    private int Patientennummer;
+    public static final String Untersuchung;
+    private Person Person1;
+    private Kalender Kalender1;
+
+    public Verwaltung()
+    {
+        Patientennnummer = 100;
+        Untersuchung = "MRT";
+        Person1 = 8;
+        Kalender1 = 5;
+        
+    }
+
+   public Verwaltung(int Patientennummer,String Name,String Adresse,String Geburtsdatum,String E-Mail, 
+    String Telefonnummer,String Diagnose,String Untersuchung, int woche, String tag, String uhrzeit, int Patientennummer, String Untersuchung)
+    {
+        Person1 = new Person(Patientennummer,Name,Adresse,Geburtsdatum,E-Mail, 
+    Telefonnummer,Diagnose,Untersuchung);
+    Kalender1 = new Kalender (woche, tag, uhrzeit);
+        this.Patientennnummer = Patientennummer;
+        this.Untersuchung = Untersuchung;
+        
+        
+    }
+    
+    
+    public void setPatientennummer(int Patientennummer)
+    {
+        Patientennnummer = neuePatientennummer;
+    }
+    
+    public void setUntersuchung(String Untersuchung)
+    {
+        Untersuchung = neueUntersuchung;
+    }
+    
+    public void setPatient1(Patient Patient1)
+    {
+    this.Patient1 = Patient1;
+    }
+    
+    public void setKalender1(Kalender Kalender1)
+    {
+    this.Kalender1 = Kalender1;
+    }
+    
+    public int getPatientennummer()
+    {
+        return Patientennummer;
+    }
+    
+    public String getUntersuchung()
+    {
+        return Untersuchung;
+    }
+    
+    public Person getPatient1()
+    {
+        return Patient1;
+    }
+    
+    public Kalender getKalender1()
+    {
+        return Kalender1;
+    }
+    
+    public void neuePerson(int Patientennummer,String Name,String Adresse,String Geburtsdatum,String E-Mail, 
+    String Telefonnummer,String Diagnose,String Untersuchung)
+    {
+        
+        
+        
+    }
+    
+    public void exportierePerson()
+    {   
+        
+    }
+    
+    public boolean pruefeUntersuchung(String Untersuchung)
+    {
+        
+        
+        
+    }
+    
+    public String waehleKalender(int Patientennummer,String Name,String Adresse,String Geburtsdatum,String E-Mail, 
+    String Telefonnummer,String Diagnose,String Untersuchung)
+    {
+        
+        
+        
+    }
+    
+    public void exportiereKalender()
+    {
+        
+    }
+    
+    public boolean pruefeTermin(int woche, String tag, String uhrzeit)
+    {
+        
+        
+        
+    }
+    
+    public void bucheTermin(int woche, String tag, String uhrzeit)
+    {   
+           
+    }
+    
+    public void storniereTermin(int woche, String tag, String uhrzeit)
+    {
+        
+        
+        
+    }
+    
+    public String gibPerson(String Name)
+    {
+        return int Patientennummer;
+        return String Name;
+        return String Adresse;
+        return String Geburtsdatum;
+        return String E-Mail; 
+        return String Telefonnummer;
+        return String Diagnose;
+        return String Untersuchung;  
+    }
+    
+    public String gibTermin(String Name)
+    {
+        return int woche;
+        return String tag; 
+        return String uhrzeit;   
+    }
+    
+    public String gibUntersuchung(String Name)
+    {
+        return Untersuchung; 
+    }
+    
+    public String Ausgabe()
+    {   
+        return int Patientennummer;
+        return String Name;
+        return String Adresse;
+        return String Geburtsdatum;
+        return String E-Mail; 
+        return String Telefonnummer;
+        return String Diagnose;
+        return String Untersuchung;
+        
+        return int woche;
+        return String tag; 
+        return String uhrzeit;
+    }
+    
+    public String KalenderEinlesen()
+    {
+         
+    }
+}
